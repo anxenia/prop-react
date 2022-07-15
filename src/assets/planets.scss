@@ -1,0 +1,13 @@
+.c-planets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+  padding: 50px;
+}
+
+.c-planet {
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
